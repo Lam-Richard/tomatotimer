@@ -1,0 +1,74 @@
+/*This belongs to Component Tomato.*/
+.OuterTomato {
+    width: 33vw;
+    height: 60vh;
+    background-image: url('./tomatotimer.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 20vh;
+    left: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InnerTomato {
+    display: flex;
+    width: 59%;
+    background-color: beige;
+    border-radius: 5px;
+    border: 2px solid beige;
+    position: relative;
+    height: 20%;
+    justify-content: center;
+    top: 10vh;
+}
+
+/*This belongs to Component Timer.*/
+.Timer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    font-size: 300%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+/*This belongs to Component Stopwatch.*/
+.OutestStopwatch {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.StopwatchText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    font-size: 300%;
+    flex-flow: row nowrap;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.StopwatchOnlyButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lapButton:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.hackClose:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 10px;
+}
