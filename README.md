@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project can be found [here](https://tomatotimer-b5fc7.web.app).
+This project can be viewed at [tomatotimer-b5fc7.web.app](https://tomatotimer-b5fc7.web.app).
 
 
 ## Available Scripts
